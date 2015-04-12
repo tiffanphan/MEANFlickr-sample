@@ -5,6 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  
 }
 
 
@@ -45,15 +46,27 @@ body {
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  color: #fff;
+  height: 150px;
+  
 }
-
+.carousel-caption p{
+	font-weight: 300;
+  font-size: 70px;
+}
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
 }
-
+.carousel-inner > .item img{
+	position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
 .carousel-inner > .item{
-	background-color: #006633;
+	background-color: #fff;
 }
 
 /* MARKETING CONTENT
@@ -87,6 +100,23 @@ body {
   letter-spacing: -1px;
 }
 
+.text-muted{
+	font-size: 50px;
+}
+/*Row
+------------------------------------------*/
+
+.row{
+	background-color: #888888;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #fff;
+}
+
+.featurette{
+	background-color: #fff;
+	color: #000;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
