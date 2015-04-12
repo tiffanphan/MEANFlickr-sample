@@ -25,6 +25,7 @@ body {
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
+  
 }
 .navbar-wrapper .navbar {
   padding-right: 15px;
@@ -32,6 +33,7 @@ body {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+  background-color: #fff;
 }
 
 
@@ -106,7 +108,7 @@ body {
 /*Row
 ------------------------------------------*/
 
-.row{
+.middle{
 	background-color: #888888;
 	padding-top: 30px;
 	padding-bottom: 30px;
