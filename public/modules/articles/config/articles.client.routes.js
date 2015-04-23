@@ -5,19 +5,19 @@ angular.module('articles').config(['$stateProvider',
 	function($stateProvider) {
 		// Articles state routing
 		$stateProvider.
-		state('listArticles', {
+		state('listRecipes', {
 			url: '/articles',
 			templateUrl: 'modules/articles/views/list-articles.client.view.html'
 		}).
-		state('createArticle', {
+		state('createRecipes', {
 			url: '/articles/create',
 			templateUrl: 'modules/articles/views/create-article.client.view.html'
 		}).
-		state('viewArticle', {
+		state('viewRecipes', {
 			url: '/articles/:articleId',
 			templateUrl: 'modules/articles/views/view-article.client.view.html'
 		}).
-		state('editArticle', {
+		state('editRecipes', {
 			url: '/articles/:articleId/edit',
 			templateUrl: 'modules/articles/views/edit-article.client.view.html'
 		});

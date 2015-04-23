@@ -1,5 +1,7 @@
-var socketApp = angular.module('socketApp',[]);
+'use strict';
 
+var socketApp = angular.module('socketApp',[]);
+	
 		socketApp.controller('ChatController',['$http','$log','$scope',function($http,$log,$scope){
 
 
@@ -39,3 +41,4 @@ var socketApp = angular.module('socketApp',[]);
 				$scope.chatMessage = "";
 			};
 		}]);
+		
